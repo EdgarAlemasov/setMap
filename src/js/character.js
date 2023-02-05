@@ -3,6 +3,6 @@ export default class Character {
         this.name = name,
         this.race = race,
         this.level = level
-    };
+    }
 
 }
