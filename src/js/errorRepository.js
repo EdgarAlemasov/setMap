@@ -1,7 +1,7 @@
 export default class ErrorRepository {
     constructor () {
         this.map = new Map();
-    };
+    }
 
     addError (key, value) {
         this.map.set(key, value);
